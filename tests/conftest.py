@@ -16,8 +16,11 @@ def driver():
     })
     # Run in incognito mode for a clean session
     chrome_options.add_argument("--incognito")
+    # Run invisibly without a UI for CI/CD servers
+    chrome_options.add_argument("--headless=new")
     # Hide the "Chrome is being controlled by automated software" banner
     chrome_options.add_argument("--disable-infobars")
+
 
     # 2. Pass those options into the driver
     my_driver = webdriver.Chrome(options=chrome_options)
