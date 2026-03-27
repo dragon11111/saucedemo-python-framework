@@ -1,6 +1,8 @@
 # SauceDemo E2E Automation Framework (Python/Pytest)
 
-![Allure Report](allure-dashboard.png)
+**📊 [Click Here to View the Live Allure Test Report Dashboard](https://dragon11111.github.io/saucedemo-python-framework/)**
+
+[![Allure Report](allure-dashboard.png)](https://dragon11111.github.io/saucedemo-python-framework/)
 
 ## 📌 Overview
 This is a professional-grade End-to-End (E2E) UI automation framework built to test the SauceDemo e-commerce platform. It demonstrates a modern, data-driven architecture using **Python**, **Pytest**, and **Selenium WebDriver**. 
